@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{$title}</title>
+    <script type="text/javascript" src="<?php echo Init::getBaseDir("media" . DS . "js" . DS . "imgClick.js"); ?>"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo Init::getBaseDir("media" . DS . "css" . DS . "style.css"); ?>" />
+</head>
+<body>
+    <div id = "header">
+        <a href="<?php echo Init::getBaseUrl(''); ?>">Home</a>
+        <a href="<?php echo Init::getBaseUrl('tree'); ?>">Go to the tasks!</a>
+    </div>
+    {$content}
+</body>
+</html>
